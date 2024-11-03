@@ -1,0 +1,28 @@
+
+
+Question 1 - Compare the heights of the resutant trees - how do they compare with a Binary
+Search Tree for the same input values?
+
+- Due to their self-balancing criteria, specifically the 2-3-4 and B-Trees because they store numerous data points in each node, they are generally shorter.
+
+
+Question 2 - Compare the complexity of the algorithms, how much work would be required for
+the main operations: insert, find, delete? Compare this to BST.
+
+- Due of the necessary self-balancing, all three advanced trees are more complicated for insertion and deletion. 
+A standard BST can degenerate to O(N), whereas all operations on advanced trees are always balanced (O(logN)). 
+This makes them somewhat better than BST in all respects.
+
+
+
+Question 3 - Compare the understandability of these algorithms, which would be easier to
+implement?
+
+It would be more difficult to implement all of these trees than a typical BST. 
+The difficulty of implementing 2-3-4 and Red-Black Trees would be comparable because they are fundamentally the same. 
+However, I believe that B-Trees would be slightly more challenging to build than the others because of the more intricate splitting mechanism.
+
+
+Question 4 - Describe how an in-order traversal would work on each type of tree.
+
+All keys on all advanced trees would be in ascending order, creating the same effect as on a BST.
