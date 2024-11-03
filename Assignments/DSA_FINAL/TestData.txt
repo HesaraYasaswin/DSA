@@ -1,0 +1,460 @@
+Test data,
+
+UnitTestDSALinkedList.java,
+
+RUN THE PROGRAM,
+
+1. Insert item at top of list
+2. Insert item at end of list     
+3. Remove item from top of list   
+4. Remove item from end of list   
+5. Remove any specific item       
+6. does the list contain the item?
+7. count of items in list
+8. display the list
+9. Exit
+Enter your choice: 1
+Enter the value to insert at the top: A
+
+1. Insert item at top of list     
+2. Insert item at end of list     
+3. Remove item from top of list   
+4. Remove item from end of list   
+5. Remove any specific item       
+6. does the list contain the item?
+7. count of items in list
+8. display the list
+9. Exit
+Enter your choice: 2
+Enter the value to insert at the end: B
+
+1. Insert item at top of list  
+2. Insert item at end of list  
+3. Remove item from top of list
+4. Remove item from end of list
+5. Remove any specific item
+6. does the list contain the item?
+7. count of items in list
+8. display the list
+9. Exit
+Enter your choice: 6
+Enter the value to search in the list: 7
+List does not contain the specific item
+
+1. Insert item at top of list
+2. Insert item at end of list
+3. Remove item from top of list
+4. Remove item from end of list
+5. Remove any specific item
+6. does the list contain the item?
+7. count of items in list
+8. display the list
+9. Exit
+Enter your choice: 8
+List: [ A, B ]
+
+1. Insert item at top of list
+2. Insert item at end of list
+3. Remove item from top of list
+4. Remove item from end of list
+5. Remove any specific item
+6. does the list contain the item?
+7. count of items in list
+8. display the list
+9. Exit
+Enter your choice: 3
+the Removed item from the top is : A
+
+1. Insert item at top of list
+2. Insert item at end of list
+3. Remove item from top of list
+4. Remove item from end of list
+5. Remove any specific item
+6. does the list contain the item?
+7. count of items in list
+8. display the list
+9. Exit
+Enter your choice: 4
+the Removed item from the end is: B
+
+1. Insert item at top of list
+2. Insert item at end of list
+3. Remove item from top of list
+4. Remove item from end of list
+5. Remove any specific item
+6. does the list contain the item?
+7. count of items in list
+8. display the list
+9. Exit
+Enter your choice:  
+8
+List: [ B ]
+
+1. Insert item at top of list
+2. Insert item at end of list
+3. Remove item from top of list
+4. Remove item from end of list
+5. Remove any specific item
+6. does the list contain the item?
+7. count of items in list
+8. display the list
+9. Exit
+Enter your choice: 9
+Exit
+
+
+
+
+
+
+UnitTestDSAQueue.java,
+
+RUN THE PROGRAM,
+
+Choose an option:
+1. Enqueue an item
+2. Dequeue an item
+3. Peek the front item        
+4. Check if the queue is empty
+5. Get the count of the items 
+6. Clear
+7. Exit
+1
+Enter an item to enqueue:
+A
+Item enqueued: A
+
+Choose an option:
+1. Enqueue an item
+2. Dequeue an item
+3. Peek the front item        
+4. Check if the queue is empty
+5. Get the count of the items 
+6. Clear
+7. Exit
+1
+Enter an item to enqueue:
+B
+Item enqueued: B  
+
+Choose an option: 
+1. Enqueue an item
+2. Dequeue an item
+3. Peek the front item
+4. Check if the queue is empty
+5. Get the count of the items
+6. Clear
+7. Exit
+3
+the front item: A
+
+Choose an option:
+1. Enqueue an item
+2. Dequeue an item
+3. Peek the front item
+4. Check if the queue is empty
+5. Get the count of the items
+6. Clear
+7. Exit
+4
+Is the queue empty? false
+
+Choose an option:
+1. Enqueue an item
+2. Dequeue an item
+3. Peek the front item
+4. Check if the queue is empty
+5. Get the count of the items
+6. Clear
+7. Exit
+5
+Count of items in the queue: 2
+
+Choose an option:
+1. Enqueue an item
+2. Dequeue an item
+3. Peek the front item
+4. Check if the queue is empty
+5. Get the count of the items
+6. Clear
+7. Exit
+6
+Queue cleared.
+
+Choose an option:
+1. Enqueue an item
+2. Dequeue an item
+3. Peek the front item
+4. Check if the queue is empty
+5. Get the count of the items
+6. Clear
+7. Exit
+7
+Exit
+
+
+UnitTestGraph.java,
+
+it reads the "location.txt"
+
+A -> B C E 
+B -> A C F 
+C -> A B D G 
+D -> C H 
+E -> A F G I 
+F -> B E H 
+G -> C E H J 
+H -> D F G 
+I -> E J 
+J -> G I 
+
+
+
+UnitTestGraphTransversal.java,
+
+RUN THE PROGRAM,
+A MENU IS DISPLAYED,
+
+----- TASK 2 & 3 Test Harness -----
+1. BreadthFirstSearch ? (Shortest Path)
+2. DepthFirstSearch ? (Traversal)      
+3. Insert new location
+4. Delete Location
+5. Search for the location
+6. Print UAV
+0. Exit
+Enter your choice: 1
+Enter the start location: A
+Enter the end location: J
+the Shortest Path (BFS) is : A C G J   
+
+----- TASK 2 & 3 Test Harness -----    
+1. BreadthFirstSearch ? (Shortest Path)
+2. DepthFirstSearch ? (Traversal)      
+3. Insert new location
+4. Delete Location
+5. Search for the location
+6. Print UAV
+0. Exit
+Enter your choice: 2
+Enter the start location: A
+the DFS traversal for this specific location is : A B C D H F E G J I 
+
+----- TASK 2 & 3 Test Harness -----
+1. BreadthFirstSearch ? (Shortest Path)
+2. DepthFirstSearch ? (Traversal)
+3. Insert new location
+4. Delete Location
+5. Search for the location
+6. Print UAV
+0. Exit
+Enter your choice: 3
+Enter the new location: A
+Enter the temperature: 33
+Enter the humidity: 44
+Enter the wind speed: 55
+Location inserted
+
+----- TASK 2 & 3 Test Harness -----
+1. BreadthFirstSearch ? (Shortest Path)
+2. DepthFirstSearch ? (Traversal)
+3. Insert new location
+4. Delete Location
+5. Search for the location
+6. Print UAV
+0. Exit
+Enter your choice: 4
+Enter the location to delete: A
+Location deleted
+
+----- TASK 2 & 3 Test Harness -----
+1. BreadthFirstSearch ? (Shortest Path)
+2. DepthFirstSearch ? (Traversal)
+3. Insert new location
+4. Delete Location
+5. Search for the location
+6. Print UAV
+0. Exit
+Enter your choice: 5
+Enter the location to search: A
+Location: A
+Temperature: 38 degrees Celsius
+Humidity: 55 percentage
+Wind Speed: 75 km/h
+
+----- TASK 2 & 3 Test Harness -----
+1. BreadthFirstSearch ? (Shortest Path)
+2. DepthFirstSearch ? (Traversal)
+3. Insert new location
+4. Delete Location
+5. Search for the location
+6. Print UAV
+0. Exit
+Enter your choice: 6
+Enter the location to print: A
+the UAV Data for this Location is A:
+Temperature: 38 degrees Celsius
+Humidity: 55 percentage
+Wind Speed: 75 km/h
+
+----- TASK 2 & 3 Test Harness -----
+1. BreadthFirstSearch ? (Shortest Path)
+2. DepthFirstSearch ? (Traversal)
+3. Insert new location
+4. Delete Location
+5. Search for the location
+6. Print UAV
+0. Exit
+Enter your choice: 0
+Exit
+
+
+
+
+UnitTestHashTable.java,
+
+
+RUN THE PROGRAM,
+
+A
+Location: A
+Temperature: 32
+Humidity: 45
+Wind Speed: 90
+Enter a location or 'q': 
+B
+Location: B
+Temperature: 26
+Humidity: 50
+Wind Speed: 35
+Enter a location or 'q': 
+
+
+UnitTestHeap.java,
+
+RUN THE PROGRAM,
+
+Enter the number of entries you want to add : 2
+Enter UAV data #1
+Location: A      
+Temperature: 33
+Humidity: 33
+Wind Speed: 34
+Enter UAV data #2
+Location: B      
+Temperature: 75
+Humidity: 33
+Wind Speed: 88
+
+highest risk of bushfires:
+the location B, is at a Risk Level of 3
+the location A, is at a Risk Level of 3
+
+
+
+UnitTestItineraryPlanner.java,
+
+Enter the location: A
+
+itinerary from A:
+ 
+Itinerary from A:
+A -> A B         
+A -> A C         
+A -> A C D       
+A -> A E         
+A -> A E F       
+A -> A E G       
+A -> A E F H     
+A -> A E I       
+A -> A E G J     
+Itinerary from B:
+B -> A 
+B -> A C         
+B -> A C D       
+B -> A E         
+B -> A B F       
+B -> A E G       
+B -> A B F H     
+B -> A E I       
+B -> A E G J     
+Itinerary from C:
+C -> A 
+C -> A B
+C -> A C D
+C -> A E 
+C -> A B F
+C -> A C G
+C -> A C D H
+C -> A E I
+C -> A C G J
+Itinerary from D:
+D -> A
+D -> A B
+D -> A C 
+D -> A E
+D -> A B F
+D -> A C G
+D -> A C D H
+D -> A E I
+D -> A C G J 
+Itinerary from E:
+E -> A
+E -> A B
+E -> A C
+E -> A C D
+E -> A E F
+E -> A E G
+E -> A C D H
+E -> A E I
+E -> A E G J 
+Itinerary from F:
+F -> A
+F -> A B
+F -> A C
+F -> A C D 
+F -> A E
+F -> A E G
+F -> A E F H
+F -> A E I
+F -> A E G J
+Itinerary from G:
+G -> A
+G -> A B
+G -> A C
+G -> A C D
+G -> A E
+G -> A E F
+G -> A E F H
+G -> A E I
+G -> A E G J 
+Itinerary from H:
+H -> A
+H -> A B
+H -> A C
+H -> A C D
+H -> A E
+H -> A E F
+H -> A E G
+H -> A E I 
+H -> A E G J
+Itinerary from I:
+I -> A
+I -> A B
+I -> A C
+I -> A C D
+I -> A E
+I -> A E F 
+I -> A E G
+I -> A E F H 
+I -> A E I J
+Itinerary from J:
+J -> A
+J -> A B
+J -> A C
+J -> A C D
+J -> A E
+J -> A E F
+J -> A E G
+J -> A E F H 
+J -> A E I
